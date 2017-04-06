@@ -23,6 +23,7 @@ public class ProgressAdapter extends BaseAdapter {
 
     private List<Programe> list;
     LayoutInflater inflater;
+
     Context context;
 
     public ProgressAdapter(Context context, List<Programe> list) {
