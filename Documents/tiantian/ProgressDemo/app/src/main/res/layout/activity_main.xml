@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="progressdemo.oslanka.com.progressdemo.MainActivity">
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_position" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_position"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="开始测试"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/btn_wiff"
+            android:layout_below="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="wiff连接"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
